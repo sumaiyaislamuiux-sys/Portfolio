@@ -1,0 +1,114 @@
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans", sans-serif;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* Header Part Start */
+#headerPart {
+  padding: 50px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#headerPart .logoWithMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.menu ul li a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+}
+.HireBtn {
+  margin-left: 20px;
+  padding: 18px 36px;
+  background: #fd6e0a;
+  color: white !important;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart {
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.bannerContent h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+}
+.bannerContent h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.bannerContent p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  width: 585px;
+  padding-bottom: 30px;
+}
+.bannerContent a {
+  padding: 18px 20px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #fd6e0a;
+  transition: all linear .4s;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.bannerContent a:hover{
+  color: #fd6e0a;
+  background: transparent;
+}
+/* Banner Part End */
+
+/* Banner Part Start */
+/* Banner Part End */
+
+/* Banner Part Start */
+/* Banner Part End */
+
+/* Banner Part Start */
+/* Banner Part End */
+
+/* All Common CSS End */
