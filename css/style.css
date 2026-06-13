@@ -190,6 +190,7 @@ p {
   padding: 30px;
   background: #D4D4D4;
   width: 25%;
+  border-radius: 5px;
 }
 .serviceItem h3{
   font-size: 20px;
